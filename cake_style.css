@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Montserrat:wght@100&family=Stint+Ultra+Condensed&display=swap');
+/*font-family: 'Baloo Tammudu 2', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: black;
+	color: white;
+	display: flex;
+	padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	list-style: none;
+
+}
+a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+a:hover{
+	background-color: green;
+}
+.logo{
+	font-family: 'Montserrat', sans-serif
+}
+.color-choose{
+	color: greenyellow;
+}
+.head{
+	background: url('2.jpg');
+	height: 610px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.head div{
+	color: white;
+	background: rgba(0, 0, 0, 0.6);
+	height: 610px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.head-1{
+	font-size: 52px;
+	margin: -30px;
+}
+.head-2{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.btn{
+	background-color: gray;
+	color: black;
+	padding: 10px;
+	border: none;
+	width: 120px;
+}
+.btn:hover{
+background-color: green;
+}
+#our{
+	display: flex;
+	flex: 1;
+}
+.container{
+	margin: 10px auto;
+	width: 800px;
+}
+.cards{
+	 font-family: 'Stint Ultra Condensed', cursive;
+	 text-align: center;
+	 font-size: 29px;
+
+}
+.cards-1{
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+}
+i{
+	background-color: greenyellow;
+	padding: 25px;
+	border-radius: 110px;
+
+}
+
+#about{
+	background: url(3.jpg);
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#about div{
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 600px;
+}
+.about-h2{
+	font-size: 52px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-align: right;
+	padding: 120px 100px 0 180px;
+	color: white;
+}
+.about-p{
+	color: white;
+	font-size: 20px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-align: right;
+	padding: 0 100px 0 750px;
+}
+.about-btn{
+	/*background-color: black;*/
+	/*color: white;*/
+	margin: 0 100px 0 0;
+	float: right;
+	padding: 8px;
+}
+#img{
+	background: url(4.png);
+	height: 600px;
+	width: 750px;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.form{
+	text-align: right;
+	margin: 100px 0 0 780px ;
+}
+.contact-h1{
+	text-align: right;
+	/*margin-left: 10px;*/
+	font-size: 70px;
+	color: greenyellow;
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+input{
+	height: 40px;
+	width: 400px;
+	border: 6.5px solid greenyellow;
+}
+label{
+	font-size: 25px;
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+.contact-btn{
+	font-size: 20px;
+	background-color: greenyellow;
+	padding: 4px;
+	border: 2px solid black;
+	margin-top: 8px;
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+footer{
+	background: black;
+	color: white;
+	text-align:center;
+	font-size: 20px;
+	font-family: 'Stint Ultra Condensed', cursive;
+
+}
+
